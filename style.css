@@ -9,10 +9,12 @@ h1 {
 }
 
 #marco {
+    width: 90vw;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    /* margin: auto; */
 }
 
 #foto {
