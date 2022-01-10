@@ -1,6 +1,10 @@
 body {
     overflow: hidden;
     background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 h1 {
@@ -14,7 +18,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin: auto; */
+    margin: auto;
 }
 
 #foto {
@@ -36,7 +40,7 @@ h1 {
         max-height: 800px;
         width: 60vw;
         height: 70vh;
-
+        margin: auto;
         background-color: rgb(5, 64, 64);
     }
 }
@@ -47,6 +51,7 @@ h1 {
         max-height: 900px;
         width: 70vw;
         height: 60vh;
+        margin: auto;
         background-color: cyan;
     }
 }
